@@ -1,0 +1,18 @@
+{
+  "compilerOptions": {
+    "target": "ESNEXT",
+    "module": "ES2022",
+    "lib": [
+      "ESNext"
+    ],
+    "outDir": "./build",
+    "removeComments": true,
+    "strict": true,
+    "moduleResolution": "node",
+    "esModuleInterop": true,
+    "skipLibCheck": true,
+    "forceConsistentCasingInFileNames": true
+  },
+  "include": ["./src/**/**/*"],
+  "exclude": ["node_modules", "./.husky"]
+}
